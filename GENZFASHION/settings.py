@@ -118,7 +118,10 @@ import os
 
 STATIC_DIR = BASE_DIR / 'static'
 
+
 STATIC_URL = '/static/'
+
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 MEDIA_URL = '/media/'
 
